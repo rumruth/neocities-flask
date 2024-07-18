@@ -17,7 +17,7 @@ Once you have created your virtual environment, activate it. If you're on Window
 ### 3) Create your environment file
 Copy, or rename the included `template.env` file to `.env`.
 
-> **Note:** On some systems you need to enable the "How hidden files" feature in your file browser. Alternatively, you could drag your working directory into your code editor of choice and have easy access to all the files within.
+> **Note:** On some systems you need to enable the "Show hidden files" feature in your file browser. Alternatively, you could drag your working directory into your code editor of choice and have easy access to all the files within.
 
 Once you have done that, substitute `yourusername` and `yourpassword` for your Neocities username and password respectively. Make you that you do not share this file with anyone!
 
