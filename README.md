@@ -31,7 +31,7 @@ You're ready to code!
 
 To start your development server, run `flask --app app --debug run` in your project's root directory. Your console will display the address for your development server which should look something like `* Running on http://127.0.0.1:5000`. If you navigate to that URL in your browser of choice you should see your website!
 
-Note: Every change you make to your site will reload your Flask application automatically with the exception of your SASS styles. To reload manually, quit the current process by pressing `Ctrl + C` in your terminal, and run the command above again.
+> **Note:** Every change you make to your site will reload your Flask application automatically with the exception of your SASS styles. To reload manually, quit the current process by pressing `Ctrl + C` in your terminal, and run the command above again.
 
 ### 6) Building your website
 Before your website can be uploaded to Neocities, it needs to be built.
@@ -45,7 +45,9 @@ Once you made sure you have no errors, start the build script by running `python
 ### 7) Publishing your website
 Once you have built your website, you can publish it to Neocities. You have multiple options on how to do it.
 
-If you wish to do it automatically (Recommended) all you have to do is run `python publish.py` in your code's root directory. If you have set up your `.env` file correctly, the script will run and tell you which files it uploaded to your Neocities website. The script only uploads files that are not already uploaded to Neocities and files that have otherwise been modified. (Note: The script will attempt to upload any files you have placed in your `build` directory. Do not place files in that directory manually, as `Frozen-Flask` will overwrite or delete them.)
+If you wish to do it automatically (Recommended) all you have to do is run `python publish.py` in your code's root directory. If you have set up your `.env` file correctly, the script will run and tell you which files it uploaded to your Neocities website. The script only uploads files that are not already uploaded to Neocities and files that have otherwise been modified.
+
+> **Note:** The script will attempt to upload any files you have placed in your `build` directory. Do not place files in that directory manually, as `Frozen-Flask` will overwrite or delete them.
 
 If you wish to do it manually, all you have to do is navigate inside your `build` directory, and move all the files within to your Neocities dashboard (Or a mounted directory if you're a [Neocities Supporter](https://neocities.org/supporter)).
 
