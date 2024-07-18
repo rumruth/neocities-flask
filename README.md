@@ -14,6 +14,8 @@ Navigate to the root of the project once downloaded and run `python -m venv .ven
 
 Once you have created your virtual environment, activate it. If you're on Windows, run `.venv/Scripts/activate`, and if you're on a Unix-based system run `source bin/activate` (For more specific and up to date instructions refer to [Python's documentation](https://www.python.org/about/gettingstarted/)).
 
+> **Note:** You have to activate your virtual environment every time you want to run your development server.
+
 ### 3) Create your environment file
 Copy, or rename the included `template.env` file to `.env`.
 
