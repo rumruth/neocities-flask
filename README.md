@@ -49,6 +49,8 @@ If you wish to do it automatically (Recommended) all you have to do is run `pyth
 
 If you wish to do it manually, all you have to do is navigate inside your `build` directory, and move all the files within to your Neocities dashboard (Or a mounted directory if you're a [Neocities Supporter](https://neocities.org/supporter)).
 
+> **Note:** If you wish to test how your website looks, you can edit the `TARGET` option in your `.env` file. That option allows the script to upload your site to a subdirectory on your Neocities site. This isn't fully-supported at the moment, however, so navigation may not work as expected.
+
 ## Conclusion
 
 This is it! Happy coding!
