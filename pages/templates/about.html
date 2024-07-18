@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% set active_page = "about" %}
+
+{% block head %}
+	<link rel="stylesheet" href="{{ url_for('static', filename='styles/about.css') + '?v=' + version }}">
+{% endblock %}
+
+{% block content %}
+	<div class="container">
+		<div class="about">
+			This is a <span>different page</span>! Write something about yourself here.
+		</div>
+	</div>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% set active_page = "home" %}
+
+{% block head %}
+	<link rel="stylesheet" href="{{ url_for('static', filename='styles/home.css') + '?v=' + version }}">
+{% endblock %}
+
+{% block content %}
+	<div class="container">
+		<div class="flask">
+			Hey, welcome to <span>Flask</span>!
+		</div>
+	</div>
+{% endblock %}

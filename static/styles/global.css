@@ -1,0 +1,33 @@
+:root {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px; }
+
+* {
+  box-sizing: border-box; }
+
+body, html {
+  height: 100%; }
+
+body {
+  margin: 0; }
+
+.container {
+  width: 1100px;
+  max-width: 100%;
+  padding: 0 20px;
+  margin: 0 auto; }
+
+.menu {
+  list-style: none;
+  display: flex;
+  padding: 0; }
+  .menu li, .menu a {
+    display: inline-block; }
+  .menu li {
+    margin: 0 15px 0 0; }
+  .menu a {
+    text-decoration: none; }
+    .menu a:hover {
+      text-decoration: underline; }
+    .menu a.active {
+      text-decoration: underline; }
