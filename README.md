@@ -21,7 +21,7 @@ Copy, or rename the included `template.env` file to `.env`.
 
 > **Note:** On some systems you need to enable the "Show hidden files" feature in your file browser. Alternatively, you could drag your working directory into your code editor of choice and have easy access to all the files within.
 
-Once you have done that, substitute `yourusername` and `yourpassword` for your Neocities username and password respectively. Make sure you that you do not share this file with anyone!
+Once you have done that, substitute `yourusername` and `yourpassword` for your Neocities username and password respectively. Make sure that you do not share this file with anyone!
 
 > **Note:** If you plan to upload this project to a Git repository, make sure you use the included `.gitignore` file or create your own and ignore this file!
 
